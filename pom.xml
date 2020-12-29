@@ -10,7 +10,7 @@
 
 
   <dependencies>
-<!-- We need to list out ALL dependencies our project needs. If you have dependencies not listed here, but sure to add them -->
+
     <dependency>
       <groupId>com.sparkjava</groupId>
       <artifactId>spark-core</artifactId>
@@ -58,7 +58,6 @@
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
           <archive>
-            <!-- Change this to YOUR main class name if different. Usually, it will be App. -->
             <manifest>
               <mainClass>App</mainClass>
             </manifest>
