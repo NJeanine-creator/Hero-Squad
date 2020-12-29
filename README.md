@@ -8,6 +8,9 @@ Jeanine NISHIMWE
 
 ## Demo
 ![Alt text](src/main/resources/public/img/demo.png?raw=true "")
+## How to use
+The main interface 
+![Alt text](src/main/resources/public/img/demo.png?raw=true "")
 
 
 ## Getting Started
