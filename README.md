@@ -11,6 +11,9 @@ Jeanine NISHIMWE
 ## How to use
 The main interface 
 ![Alt text](src/main/resources/public/img/demo.png?raw=true "")
+When you want to create Hero you click on create hero and receive the form below
+![Alt text](src/main/resources/public/img/createheroes.png?raw=true "")
+
 
 
 ## Getting Started
