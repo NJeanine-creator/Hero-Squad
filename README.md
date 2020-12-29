@@ -16,7 +16,12 @@ When you want to create Hero you click on create hero and receive the form below
 Once you have created the Hero click submit, and you will receive success message.
 ![Alt text](src/main/resources/public/img/createhero.png?raw=true "")
 Now you are successful create Hero. The next you can view the current heroes.
+![Alt text](src/main/resources/public/img/currenthero.png?raw=true "")
+In that page you cna add your hero in a squad. This can be done by clicking on add (name of hero) to squad
+![Alt text](src/main/resources/public/img/squad.png?raw=true "")
+Now you have added your hero to squad. 
 
+The last activity you can perform is to create your squad by navigating to squad page and click on create squad.
 
 
 
