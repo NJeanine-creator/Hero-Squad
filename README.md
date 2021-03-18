@@ -23,7 +23,6 @@ Now you have added your hero to squad.
 
 The last activity you can perform is to create your squad by navigating to squad page and click on create squad.
 ![Alt text](src/main/resources/public/img/createsquad.png?raw=true "")
-This can be accessed by using this link that are in deployment https://betahood-hero-squad.herokuapp.com/ .
 
 ## Getting Started
 
