@@ -12,13 +12,13 @@ Jeanine NISHIMWE
 The main interface 
 ![Alt text](src/main/resources/public/img/demo.png?raw=true "")
 When you want to create Hero you click on create hero and receive the form below
-![Alt text](src/main/resources/public/img/createheroes.png?raw=true "")
+![Alt text](src/main/resources/public/img/createhero.png?raw=true "")
 Once you have created the Hero click submit, and you will receive success message.
 ![Alt text](src/main/resources/public/img/createhero.png?raw=true "")
 Now you are successful create Hero. The next you can view the current heroes.
 ![Alt text](src/main/resources/public/img/currenthero.png?raw=true "")
 In that page you cna add your hero in a squad. This can be done by clicking on add (name of hero) to squad
-![Alt text](src/main/resources/public/img/squad.png?raw=true "")
+![Alt text](src/main/resources/public/img/currentsquad.png?raw=true "")
 Now you have added your hero to squad. 
 
 The last activity you can perform is to create your squad by navigating to squad page and click on create squad.
@@ -64,20 +64,6 @@ public void newHero_getName_String(){
   assertEquals("jenny", testHero.getName());
 }
 ```
-
-## Built With
-
-* [Java](https://www.java.com/) - The language used
-* [Intellij Idea](https://www.jetbrains.com/idea/) - Intergated development
-* [Spark]() - Framework
-
-
-## Contributing
-If you want to put out a pull request you first have to send us the sample code that you want to add to our repository for cross-checking before we allow the pull.
-
-## Versioning
-
-We use [Github](https://github.com/) for versioning. This is the first version of this application
 
 ## License
 
