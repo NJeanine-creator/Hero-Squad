@@ -4,11 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   transition: all 0.2s ease-out;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Tahoma', sans-serif;
 }
 nav{
 z-index: 2345;
 font-size: 23px;
+background-color:#171614;
 }
 nav a{
 color: white;
@@ -23,7 +24,7 @@ a{
   cursor: pointer;
   outline: none;
   padding: 5px 20px;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Tahoma', sans-serif;
   border-radius: 20px;
   margin-top: 5px;
 
@@ -34,7 +35,7 @@ a{
   color: white;
 }
 .btn-green{
-	background: green;
+	background: gray;
 	margin-top: 5px;
 }
 html{
@@ -51,8 +52,8 @@ body::-webkit-scrollbar,
 }
 body::-webkit-scrollbar-thumb,
  #newMember::-webkit-scrollbar-thumb{
-  background-color: rgb(48, 116, 52);
-  border-radius: 30px;
+  background-color: rgb(117, 68, 35);
+  border-radius: 50px;
 }
 .landing-pg{
   display: flex;
@@ -60,9 +61,8 @@ body::-webkit-scrollbar-thumb,
   justify-content: center;
   margin-top: 15vh;
   min-height: 10vh;
-  background: rgb(8, 22, 8);
+  background: rgb(62, 71, 82);
   color: white;
-  box-shadow: 0 0 10px rgba(255,255,255,0.4);
 }
 .landing-pg h2{
   z-index: 10;
@@ -70,7 +70,7 @@ body::-webkit-scrollbar-thumb,
 	padding: 40px 0;
 }
 .landing-pg h2 a{
-	background: green;
+	background:rgb(117, 68, 35) ;
 	color: white;
 	border-radius: 20px;
 }
@@ -81,12 +81,16 @@ body::-webkit-scrollbar-thumb,
   top: 0vh;
   width: 50%;
   height: 100vh;
-  background: rgb(8, 22, 8);
+  background:url("https://i.redd.it/gdsqd5pgyku41.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
   z-index: 2;
 }
 .land-left{
   left: 0px;
-  background: rgb(0, 0, 0);
+  background:url("https://images.goodsmile.info/cgm/images/product/20190729/8615/66531/large/1a9d9defd4034d44f58992dad9a525d8.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 .hero-img{
   position: relative;
@@ -96,10 +100,10 @@ body::-webkit-scrollbar-thumb,
   margin-top: 5vh;
   height: 70vh;
   overflow: hidden;
-  background: url('/img/arrow_1.jpg');
+  background: url('/img/arrow_2.jpg');
   background-position: top center;
   background-repeat: no-repeat;
-  box-shadow: 0 0 20px rgb(24, 44, 13);
+  box-shadow: 0 0 20px ;
   animation: load1 0.8s linear 1;
 }
 .hero-desc{
@@ -126,7 +130,7 @@ body::-webkit-scrollbar-thumb,
   letter-spacing: 10px;
 }
 .hero-btn{
-  background: rgb(11, 68, 35);
+  background: rgb(117, 68, 35);
   color: white;
   padding: 5px;
   width: 60%;
@@ -134,7 +138,7 @@ body::-webkit-scrollbar-thumb,
   bottom: 5%;
   left: 20%;
   cursor: pointer;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Tahoma', sans-serif;
   font-size: 25px;
   outline: none;
   z-index: 5;
@@ -147,7 +151,7 @@ body::-webkit-scrollbar-thumb,
 .hero-btn::after{
   content: "";
   display: block;
-  border:25px solid rgb(11, 68, 35);
+  border:25px solid rgb(117, 68, 35);
   position: absolute;
   top: -5px;
   border-radius: 50%;
@@ -225,7 +229,7 @@ body::-webkit-scrollbar-thumb,
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 10vh;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Tahoma', sans-serif;
 }
 .form-cont>div{
   background: rgba(255, 255, 255, 0.089);
@@ -237,7 +241,7 @@ body::-webkit-scrollbar-thumb,
 .form-cont>div>a{
   display: inline-block;
   padding: 20px;
-  background: rgb(23, 43, 23);
+  background: rgb(117, 68, 35);
   color: white;
   width: 70%;
   left: 15%;
@@ -272,13 +276,13 @@ body::-webkit-scrollbar-thumb,
 	animation: formLd 0.8s linear 1;
 }
 @keyframes formLd{
-	0%{width: 0%;border-color: green;box-shadow: 0px 2px 2px rgba(255,255,255,0.3);}
+	0%{width: 0%;border-color: gray;box-shadow: 0px 2px 2px rgba(255,255,255,0.3);}
 	100%{border-color: orange;box-shadow: 0px 2px 2px rgba(255,255,255,0.3);}
 }
 
 .form input[type=submit]{
   margin-top: 10px;
-  background: rgb(17, 54, 17);
+  background: rgb(117, 68, 35);
   width: 100%;
   padding: 5px;
   color: white;
@@ -342,7 +346,7 @@ body::-webkit-scrollbar-thumb,
 ---------------------------------------*/
 .heroes{
   z-index: 4;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Tahoma', sans-serif;
   text-align: center;
   width: 100%;
 }
@@ -350,7 +354,6 @@ body::-webkit-scrollbar-thumb,
   background: rgba(0, 0, 0, 0.5);
 }
 .heroes>div:nth-child(odd) img {
-  background: rgb(0, 0, 0);
 }
 .hero-item{
   width: 500px;
@@ -369,7 +372,6 @@ body::-webkit-scrollbar-thumb,
 .hero-item img{
 position: absolute;
   height: 70px;
-  background: rgb(9, 22, 13);
   display: block;
   padding: 5px 13px;
   left: -20px;
@@ -378,7 +380,7 @@ position: absolute;
   animation: hero 1s linear 1;
 }
 .hero-item a{
-	background: rgb(6, 70, 6);
+	background: rgb(117, 68, 35);
 	padding: 3px 20px;
 }
 @keyframes hero{
@@ -391,7 +393,7 @@ position: absolute;
   }
 }
 .hero-item button{
-  background: rgb(6, 70, 6);
+  background: rgb(117, 68, 35);
   padding: 5px 20px;
   position: relative;
   right: -20%;
@@ -409,7 +411,7 @@ position: absolute;
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Tahoma', sans-serif;
   font-size: 0.9em;
 }
 #newMember{
@@ -449,7 +451,7 @@ position: absolute;
   animation: load1 0.5s linear 1;
 }
 .add-btn{
-  background: green;
+  background:rgb(117, 68, 35);
   display: inline-block;
   position: absolute;
   right: 5%;

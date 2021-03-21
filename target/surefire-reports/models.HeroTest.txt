@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: models.HeroTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec <<< FAILURE!
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec <<< FAILURE!
 newHero_getName_String(models.HeroTest)  Time elapsed: 0.005 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[jenny]> but was:<[Atemba]>
+org.junit.ComparisonFailure: expected:<[jenny]> but was:<[Jennie]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at models.HeroTest.newHero_getName_String(HeroTest.java:17)

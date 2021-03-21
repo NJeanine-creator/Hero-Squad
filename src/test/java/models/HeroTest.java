@@ -14,7 +14,7 @@ public class HeroTest {
     @Test
     public void newHero_getName_String() {
         Hero newHero = Hero.setUpNewHero();
-        assertEquals("jenny",newHero.getName());
+        assertEquals("Jennie",newHero.getName());
     }
     @Test
     public void newHero_getAge_Int() {
